@@ -81,9 +81,9 @@ nav.main-nav {
   margin-right: auto;
 }
 
-.main-nav ul {
-  list-style-type: none;
-}
+
+
+
 
 /* Header and Footer */
 
@@ -125,6 +125,11 @@ div.page-bottom {
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
+
+
+
+
+
 
 p.bottom-name {
   font-family: 'Lato', sans-serif;
@@ -204,9 +209,14 @@ p.intro_text {
   padding: 1rem 1rem 0;
 }
 
+#back {
+  display: block;
+}
+
 /*Tablet and Full Screen sizes */
 
 @media (min-width: 768px) {
+
   .cards_item {
     width: 50%;
   }
@@ -232,10 +242,25 @@ font-size: 20px;
   display: table;
 }
 
+
+.main-nav li {
+  display: inline-block;
+  margin: 5px;
+  background-color: inherit;
 }
+
+.main-nav a {
+  padding: 15px;
+}
+
 #back {
   display: none;
 }
+
+
+}
+
+
 
 @media (min-width: 1024px) {
   .cards_item {

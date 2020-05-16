@@ -147,7 +147,9 @@ div.page-bottom {
 }
 
 
-
+.skills-card {
+  padding: 1rem 1rem 0;
+}
 
 
 
@@ -305,15 +307,8 @@ nav.main-nav {
 }
 
 
-
-nav.main-nav {
-  display: inline;
-
-}
-
-.main-nav li {
-  display: inline;
-  float: right;
+.main-nav ul {
+  text-align: right;
 }
 
 .top-nav::after {

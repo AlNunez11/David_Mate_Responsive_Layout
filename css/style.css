@@ -8,19 +8,9 @@
   color: #232323;
 }
 
-
-
 .footer-nav {
     display: none;
 }
-
-
-
-
-
-
-
-
 
 .name {
   padding: 0.5rem 1rem 0;
@@ -99,12 +89,6 @@ nav.main-nav a {
   font-size: 15px;
 }
 
-
-
-
-
-
-
 /* Header and Footer */
 
 div.header {
@@ -173,13 +157,11 @@ h2.card_title {
   text-align: center;
   padding: 1rem 1rem 0.5rem;
   font-family: 'Lato', sans-serif;
-
 }
 
 .main {
   max-width: 1200px;
   margin: 0 auto;
-
 }
 
 h2#portfolio {
@@ -239,8 +221,8 @@ p.intro_text {
 
 @media screen and (min-width: 768px) {
 
-  .cards_item {
-    width: 50%;
+.cards_item {
+  width: 50%;
   }
 
 div.intro {
@@ -296,16 +278,13 @@ nav.main-nav {
   padding-top: 0;
 }
 
-}
-
-
+  }
 
 @media screen and (min-width: 1024px) {
 
 .name {
   float: left;
 }
-
 
 .main-nav ul {
   text-align: right;
@@ -318,9 +297,9 @@ nav.main-nav {
 }
 
 
-  .cards_item {
-    width: 33.3333%;
-  }
+.cards_item {
+  width: 33.3333%;
+}
 
 
 .card {
@@ -335,7 +314,6 @@ nav.main-nav {
 }
 
 .card_title {
-
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -344,7 +322,6 @@ nav.main-nav {
 }
 
 .card_text {
-
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
@@ -352,7 +329,6 @@ nav.main-nav {
   margin-top: 0.5rem;
 
 }
-
 
 div.intro {
  padding: 20px 30px 40px;
@@ -364,5 +340,4 @@ text-align: left;
 font-size: 20px;
 }
 
-
-}
+  }

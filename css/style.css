@@ -8,6 +8,20 @@
   color: #232323;
 }
 
+
+
+.footer-nav {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 .name {
   padding: 0.5rem 1rem 0;
   text-align: center;
@@ -53,7 +67,7 @@ a:hover {
   color: #AFAFAF;
 }
 
-li {
+.main-nav li {
   display: list-item;
   padding: 1px 0;
   margin-bottom: 8px;
@@ -80,6 +94,12 @@ nav.main-nav {
   margin-left: auto;
   margin-right: auto;
 }
+
+nav.main-nav a {
+  font-size: 15px;
+}
+
+
 
 
 
@@ -215,7 +235,7 @@ p.intro_text {
 
 /*Tablet and Full Screen sizes */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .cards_item {
     width: 50%;
@@ -253,20 +273,60 @@ font-size: 20px;
   padding: 15px;
 }
 
+nav.footer-nav {
+  display: inline;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav a {
+  padding: 15px;
+  font-size: 15px;
+}
+
 #back {
   display: none;
 }
 
+nav.main-nav {
+  padding-top: 0;
+}
 
 }
 
 
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+
+.name {
+  float: left;
+}
+
+
+
+nav.main-nav {
+  display: inline;
+
+}
+
+.main-nav li {
+  display: inline;
+  float: right;
+}
+
+.top-nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
   .cards_item {
     width: 33.3333%;
   }
-}
+
 
 .card {
   display: flex;
@@ -300,11 +360,14 @@ font-size: 20px;
 
 
 div.intro {
- padding: 0 30px 40px;
+ padding: 20px 30px 40px;
 }
 
 
 p.intro_text {
 text-align: left;
 font-size: 20px;
+}
+
+
 }
